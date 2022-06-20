@@ -31,7 +31,7 @@ Connecting DS3231 MINI module to arduino board:
 /*
  * Изменено poty для исключения подключений SQW (и соответствующего прерывания) и замена EEPROM из модуля на Ардуино
  */
-
+#pragma GCC optimize ("-O2")
 #include <Wire.h>
 #include <EEPROM.h>
 #include "RTClib.h"
