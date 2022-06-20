@@ -29,6 +29,7 @@ Connecting DS3231 MINI module to arduino board:
   - SQW should be connected to INTERRUPT_PIN
   - INTERRUPT_PIN needs to work with interrupts
 */
+#pragma GCC optimize ("-O2")
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <Wire.h>
